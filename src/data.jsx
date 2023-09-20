@@ -1,6 +1,6 @@
+/* eslint-disable no-unused-vars */
 import { nanoid } from 'nanoid';
-// express, mongodb, python
-import { FaNodeJs, FaJs, FaReact } from 'react-icons/fa';
+import { FaNodeJs, FaJs, FaReact, FaPython } from 'react-icons/fa';
 
 export const links = [
     { id: nanoid(), href: '#home', text: 'home' },
@@ -12,9 +12,9 @@ export const links = [
 export const skills = [
     {
         id: nanoid(),
-        title: 'HTML&CSS',
+        title: 'NodeJS',
         icon: <FaNodeJs className='h-16 w-16 text-rose-500' />,
-        text: 'nodejs.',
+        text: 'nodejs, MongoDB , express, mongoose',
     },
     {
         id: nanoid(),
