@@ -20,10 +20,10 @@ const Hero = () => {
                     </p>
                     <div className='flex gap-x-4 mt-4'>
                         {/* Add links */}
-                        <a href='#'>
+                        <a href='https://github.com/Aaliyah1699'>
                             <FaGithub className='h-8 w-8 text-rose-950 hover:text-rose-600 duration-300 ' />
                         </a>
-                        <a href='#'>
+                        <a href='https://www.linkedin.com/in/aaliyahmontgomery'>
                             <FaLinkedinIn className='h-8 w-8 text-rose-950 hover:text-rose-600 duration-300 ' />
                         </a>
                     </div>
