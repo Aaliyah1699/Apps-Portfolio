@@ -10,7 +10,7 @@ const Hero = () => {
                     <h1 className='text-7xl font-bold tracking-wide font-lobster'>
                         I'm Aaliyah
                     </h1>
-                    <p className='mt-4 text-3xl text-slate-700 capitalize tracking-wide'>
+                    <p className='mt-4 text-3xl text-slate-800 capitalize tracking-wide font-jura'>
                         Software Engineer
                     </p>
                     <p className='mt-2 text-lg text-slate-800 capitalize tracking-wide font-jura'>
