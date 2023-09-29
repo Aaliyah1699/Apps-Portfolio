@@ -1,6 +1,7 @@
 /* eslint-disable no-unused-vars */
 import { nanoid } from 'nanoid';
 import { FaNodeJs, FaJs, FaReact, FaPython } from 'react-icons/fa';
+import { SiMongodb, SiExpress } from 'react-icons/si';
 
 export const links = [
     { id: nanoid(), href: '#home', text: 'home' },
@@ -8,13 +9,19 @@ export const links = [
     { id: nanoid(), href: '#about', text: 'about' },
     { id: nanoid(), href: '#projects', text: 'projects' },
 ];
-// change color
+
 export const skills = [
     {
         id: nanoid(),
-        title: 'NodeJS',
+        title: 'Node.JS',
         icon: <FaNodeJs className='h-16 w-16 text-rose-500' />,
-        text: 'nodejs, MongoDB , express, mongoose',
+        text: 'Skillfully harnessing Node.js and Express to orchestrate powerful backend solutions that enable lightning-fast API development and robust server-side logic.',
+    },
+    {
+        id: nanoid(),
+        title: 'MongoDB',
+        icon: <SiMongodb className='h-16 w-16 text-rose-500' />,
+        text: 'Skilled in MongoDB and Mongoose, architecting data storage solutions that ensure data integrity and smooth integration for your applications.',
     },
     {
         id: nanoid(),
@@ -24,16 +31,28 @@ export const skills = [
     },
     {
         id: nanoid(),
+        title: 'Express',
+        icon: <SiExpress className='h-16 w-16 text-rose-500' />,
+        text: 'Effectively utilizing Express.js to sculpt the foundation of robust backend systems, ensuring efficient API development, and delivering reliable server-side solutions.',
+    },
+    {
+        id: nanoid(),
+        title: 'Python',
+        icon: <FaPython className='h-16 w-16 text-rose-500' />,
+        text: 'Fluency in Python, enabling versatile scripting and application development, with a keen focus on readability and efficiency.',
+    },
+    {
+        id: nanoid(),
         title: 'React',
         icon: <FaReact className='h-16 w-16 text-rose-500' />,
-        text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
+        text: "Advanced proficiency in React's component-based architecture, creating efficient and interactive front-end applications that redefine user experiences.",
     },
 ];
 
 export const projects = [
     {
         id: nanoid(),
-        img: 'https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=800',
+        img: '../src/assets/moonlit.png',
         url: 'https://moonlit-reverie-111.netlify.app/',
         github: 'https://github.com/Aaliyah1699/Moonlit-Reverie',
         title: 'Moonlit Reverie',
@@ -41,7 +60,7 @@ export const projects = [
     },
     {
         id: nanoid(),
-        img: 'https://images.pexels.com/photos/2148222/pexels-photo-2148222.jpeg?auto=compress&cs=tinysrgb&w=800',
+        img: '../src/assets/voyage.png',
         url: 'https://visual-voyage.netlify.app/',
         github: 'https://github.com/Aaliyah1699/Visual-Voyage',
         title: 'Visual Voyage',
@@ -49,7 +68,7 @@ export const projects = [
     },
     {
         id: nanoid(),
-        img: 'https://images.pexels.com/photos/12883026/pexels-photo-12883026.jpeg?auto=compress&cs=tinysrgb&w=800',
+        img: '../src/assets/shop.png',
         url: 'https://e-commerce-api-q5wi.onrender.com/',
         github: 'https://github.com/Aaliyah1699/EasyShop-API',
         title: 'Easy Shop API',
