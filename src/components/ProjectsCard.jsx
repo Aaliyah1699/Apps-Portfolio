@@ -4,7 +4,7 @@ import { TbWorldHeart } from 'react-icons/tb';
 
 const ProjectsCard = ({ url, img, github, title, text }) => {
     return (
-        <article className='bg-white rounded-lg shadow-md hover:shadow-xl duration-300'>
+        <article className='bg-white rounded-lg shadow-md hover:shadow-2xl duration-300'>
             <img
                 src={img}
                 alt={title}
