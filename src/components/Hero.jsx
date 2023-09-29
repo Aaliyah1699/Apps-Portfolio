@@ -2,21 +2,19 @@ import hero from '../assets/Hero.svg';
 
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 
-// Add fonts and colors
 const Hero = () => {
     return (
-        // hero section size
-        <div className='bg-rose-100 py-8 '>
+        <div className='bg-rose-100 py-8'>
             <div className='align-element grid md:grid-cols-2 items-center gap-8'>
                 <article>
-                    <h1 className='text-7xl font-bold tracking-wide'>
-                        Aaliyah
+                    <h1 className='text-7xl font-bold tracking-wide font-lobster'>
+                        I'm Aaliyah
                     </h1>
                     <p className='mt-4 text-3xl text-slate-700 capitalize tracking-wide'>
                         Software Engineer
                     </p>
-                    <p className='mt-2 text-lg text-slate-700 capitalize tracking-wide'>
-                        Innovative sentence here.
+                    <p className='mt-2 text-lg text-slate-800 capitalize tracking-wide font-jura'>
+                        Creating pathways to a world of boundless opportunities.
                     </p>
                     <div className='flex gap-x-4 mt-4'>
                         {/* Add links */}
@@ -32,7 +30,7 @@ const Hero = () => {
                     <img
                         src={hero}
                         alt='undraw image'
-                        className='h-80 lg:h-72'
+                        className='h-80 lg:h-80'
                     />
                 </article>
             </div>

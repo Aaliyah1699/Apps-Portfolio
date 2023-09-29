@@ -11,13 +11,14 @@ const About = () => {
                     className='w-full h-64'
                 />
                 <article>
-                    <SectionTitle text='A little bit about me...' />
+                    <SectionTitle text='About Me' />
                     <p className='text-slate-600 mt-8 leading-loose'>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Molestias, autem. Harum fuga, modi ullam accusantium
-                        nemo officiis aliquam molestiae odit minus
-                        necessitatibus delectus veritatis cupiditate doloribus
-                        dolores alias ipsam unde.
+                        I'm Aaliyah Montgomery, a self-taught developer with 4
+                        years of coding experience. I thrive on learning new
+                        technologies and enjoy overcoming challenges. My
+                        expertise spans JavaScript, Node.js, Express, MongoDB,
+                        and Python. I aspire to innovate and shape the future of
+                        technology.
                     </p>
                 </article>
             </div>
