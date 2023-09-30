@@ -56,7 +56,7 @@ export const projects = [
         url: 'https://moonlit-reverie-111.netlify.app/',
         github: 'https://github.com/Aaliyah1699/Moonlit-Reverie',
         title: 'Moonlit Reverie',
-        text: 'Shop seamlessly with Moonlit Reverie, a React web app powered by a Strapi API Headless CMS. Browse products, register, and enjoy a smooth checkout. Smart filtering and personalization make shopping a breeze.',
+        text: 'Shop seamlessly with Moonlit Reverie, a React web app utilizing Strapi API as its headless CMS. Explore products, register, and experience a frictionless checkout process. Smart filtering and personalization options ensure a breeze while shopping.',
     },
     {
         id: nanoid(),

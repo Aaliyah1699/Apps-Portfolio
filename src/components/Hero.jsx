@@ -7,7 +7,7 @@ const Hero = () => {
         <div className='bg-rose-100 py-8'>
             <div className='align-element grid md:grid-cols-2 items-center gap-8'>
                 <article>
-                    <h1 className='text-7xl font-bold tracking-wide font-lobster'>
+                    <h1 className='text-7xl font-bold tracking-wide font-lobster '>
                         I'm Aaliyah
                     </h1>
                     <p className='mt-4 text-3xl text-slate-800 capitalize tracking-wide font-jura'>
