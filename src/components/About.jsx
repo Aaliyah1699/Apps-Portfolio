@@ -12,7 +12,7 @@ const About = () => {
                 />
                 <article>
                     <SectionTitle text='About Me' />
-                    <p className='text-slate-900 mt-8 leading-loose'>
+                    <p className='text-slate-900 mt-8 leading-loose text-lg'>
                         I'm Aaliyah Montgomery, a self-taught developer with 4
                         years of coding experience. I thrive on learning new
                         technologies and enjoy overcoming challenges. My
