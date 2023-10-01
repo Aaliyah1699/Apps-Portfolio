@@ -1,4 +1,4 @@
-import hero from '../assets/Hero.svg';
+import hero from '../../public/Hero.svg';
 
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 
