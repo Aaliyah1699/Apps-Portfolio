@@ -1,7 +1,8 @@
 /* eslint-disable no-unused-vars */
 import { nanoid } from 'nanoid';
-import { FaNodeJs, FaJs, FaReact, FaPython } from 'react-icons/fa';
+import { FaReact, FaPython, FaNode } from 'react-icons/fa';
 import { SiMongodb, SiExpress } from 'react-icons/si';
+import { TbBrandJavascript } from 'react-icons/tb';
 
 export const links = [
     { id: nanoid(), href: '#home', text: 'home' },
@@ -14,13 +15,13 @@ export const skills = [
     {
         id: nanoid(),
         title: 'Node.JS',
-        icon: <FaNodeJs className='h-16 w-16 text-rose-500' />,
+        icon: <FaNode className='h-16 w-16 text-rose-500' />,
         text: 'Skillfully harness Node.js and Express to orchestrate powerful backend solutions, enabling lightning-fast API development and robust server-side logic.',
     },
     {
         id: nanoid(),
         title: 'Javascript',
-        icon: <FaJs className='h-16 w-16 text-rose-500' />,
+        icon: <TbBrandJavascript className='h-16 w-16 text-rose-500' />,
         text: 'Expertise in JavaScript, building interactive and dynamic web applications with seamless user interactions and functionality.',
     },
     {
@@ -33,19 +34,19 @@ export const skills = [
         id: nanoid(),
         title: 'MongoDB',
         icon: <SiMongodb className='h-16 w-16 text-rose-500' />,
-        text: 'Skilled in MongoDB and expertly harnessing Mongoose to design data storage solutions that ensure data integrity and seamless integration for your applications.',
-    },
-    {
-        id: nanoid(),
-        title: 'Express',
-        icon: <SiExpress className='h-16 w-16 text-rose-500' />,
-        text: 'Effectively utilize Express.js to sculpt the foundation of robust backend systems, ensuring efficient API development and delivering reliable server-side solutions.',
+        text: 'Skilled in MongoDB and adeptly utilizing Mongoose to design data storage solutions that ensure data integrity and seamless integration for any application.',
     },
     {
         id: nanoid(),
         title: 'React',
         icon: <FaReact className='h-16 w-16 text-rose-500' />,
         text: "Advanced proficiency in React's component-based architecture, creating efficient and interactive front-end applications that redefine user experiences.",
+    },
+    {
+        id: nanoid(),
+        title: 'Express.JS',
+        icon: <SiExpress className='h-16 w-16 text-rose-500' />,
+        text: 'Effectively utilize Express.js to sculpt the foundation of robust backend systems, ensuring efficient API development and delivering reliable server-side solutions.',
     },
 ];
 
@@ -72,6 +73,6 @@ export const projects = [
         url: 'https://e-commerce-api-q5wi.onrender.com/',
         github: 'https://github.com/Aaliyah1699/EasyShop-API',
         title: 'Easy Shop API',
-        text: 'Unlock the potential of a robust and secure backend e-commerce API. Node.js, ExpressJS, and MongoDB drive it and seamlessly manage user accounts, orders, and products while providing a complete e-commerce solution.',
+        text: 'Unlock the potential of a robust and secure backend e-commerce API powered by Node.js, Express.js, and MongoDB. Seamlessly manage user accounts, orders, and products, offering a complete e-commerce solution.',
     },
 ];

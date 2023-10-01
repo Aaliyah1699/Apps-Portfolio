@@ -16,10 +16,10 @@ const ProjectsCard = ({ url, img, github, title, text }) => {
 
                 <div className='mt-3 flex gap-x-4'>
                     <a href={url}>
-                        <TbWorldHeart className='h-8 w-8 text-rose-500 hover:text-rose-800 duration-300' />
+                        <TbWorldHeart className='h-8 w-8 text-rose-600 hover:text-rose-950 duration-300' />
                     </a>
                     <a href={github}>
-                        <FaGithubSquare className='h-8 w-8 text-rose-500 duration-300 hover:text-rose-800' />
+                        <FaGithubSquare className='h-8 w-8 text-rose-600 duration-300 hover:text-rose-950' />
                     </a>
                 </div>
             </div>
