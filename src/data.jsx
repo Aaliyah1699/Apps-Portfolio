@@ -53,7 +53,7 @@ export const skills = [
 export const projects = [
     {
         id: nanoid(),
-        img: '/src/moonlit.png',
+        img: '/moonlit.png',
         url: 'https://moonlit-reverie-111.netlify.app/',
         github: 'https://github.com/Aaliyah1699/Moonlit-Reverie',
         title: 'Moonlit Reverie',
@@ -61,7 +61,7 @@ export const projects = [
     },
     {
         id: nanoid(),
-        img: '/src/voyage.png',
+        img: '/voyage.png',
         url: 'https://visual-voyage.netlify.app/',
         github: 'https://github.com/Aaliyah1699/Visual-Voyage',
         title: 'Visual Voyage',
@@ -69,7 +69,7 @@ export const projects = [
     },
     {
         id: nanoid(),
-        img: '/src/shop.png',
+        img: '/shop.png',
         url: 'https://e-commerce-api-q5wi.onrender.com/',
         github: 'https://github.com/Aaliyah1699/EasyShop-API',
         title: 'Easy Shop API',
