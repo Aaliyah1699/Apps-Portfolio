@@ -15,31 +15,31 @@ export const skills = [
         id: nanoid(),
         title: 'Node.JS',
         icon: <FaNodeJs className='h-16 w-16 text-rose-500' />,
-        text: 'Skillfully harnessing Node.js and Express to orchestrate powerful backend solutions that enable lightning-fast API development and robust server-side logic.',
-    },
-    {
-        id: nanoid(),
-        title: 'MongoDB',
-        icon: <SiMongodb className='h-16 w-16 text-rose-500' />,
-        text: 'Skilled in MongoDB and Mongoose, architecting data storage solutions that ensure data integrity and smooth integration for your applications.',
+        text: 'Skillfully harness Node.js and Express to orchestrate powerful backend solutions, enabling lightning-fast API development and robust server-side logic.',
     },
     {
         id: nanoid(),
         title: 'Javascript',
         icon: <FaJs className='h-16 w-16 text-rose-500' />,
-        text: 'Expertise in JavaScript, building interactive and dynamic web applications with a focus on seamless user interactions and functionality',
-    },
-    {
-        id: nanoid(),
-        title: 'Express',
-        icon: <SiExpress className='h-16 w-16 text-rose-500' />,
-        text: 'Effectively utilizing Express.js to sculpt the foundation of robust backend systems, ensuring efficient API development, and delivering reliable server-side solutions.',
+        text: 'Expertise in JavaScript, building interactive and dynamic web applications with seamless user interactions and functionality.',
     },
     {
         id: nanoid(),
         title: 'Python',
         icon: <FaPython className='h-16 w-16 text-rose-500' />,
-        text: 'Fluency in Python, enabling versatile scripting and application development, with a keen focus on readability and efficiency.',
+        text: 'Fluent in Python, enabling versatile scripting and application development with a keen focus on readability and efficiency.',
+    },
+    {
+        id: nanoid(),
+        title: 'MongoDB',
+        icon: <SiMongodb className='h-16 w-16 text-rose-500' />,
+        text: 'Skilled in MongoDB and expertly harnessing Mongoose to design data storage solutions that ensure data integrity and seamless integration for your applications.',
+    },
+    {
+        id: nanoid(),
+        title: 'Express',
+        icon: <SiExpress className='h-16 w-16 text-rose-500' />,
+        text: 'Effectively utilize Express.js to sculpt the foundation of robust backend systems, ensuring efficient API development and delivering reliable server-side solutions.',
     },
     {
         id: nanoid(),
@@ -56,7 +56,7 @@ export const projects = [
         url: 'https://moonlit-reverie-111.netlify.app/',
         github: 'https://github.com/Aaliyah1699/Moonlit-Reverie',
         title: 'Moonlit Reverie',
-        text: 'Shop seamlessly with Moonlit Reverie, a React web app utilizing Strapi API as its headless CMS. Explore products, register, and experience a frictionless checkout process. Smart filtering and personalization options ensure a breeze while shopping.',
+        text: 'Shop comfortably with Moonlit Reverie, a React web app utilizing Strapi API as its headless CMS. Browse products, register an account, and experience seamless checkout. Intelligent filtering and personalization ensure a frictionless shopping experience.',
     },
     {
         id: nanoid(),
@@ -64,7 +64,7 @@ export const projects = [
         url: 'https://visual-voyage.netlify.app/',
         github: 'https://github.com/Aaliyah1699/Visual-Voyage',
         title: 'Visual Voyage',
-        text: 'Explore captivating images with the Visual Voyage Image Search App. It offers immersive themes, seamless searching, and a stunning image showcase using React and the Unsplash API.',
+        text: 'Explore captivating images with Visual Voyage, the image search app offering immersive themes, seamless searching, and a stunning image showcase utilizing the Unsplash API.',
     },
     {
         id: nanoid(),
@@ -72,6 +72,6 @@ export const projects = [
         url: 'https://e-commerce-api-q5wi.onrender.com/',
         github: 'https://github.com/Aaliyah1699/EasyShop-API',
         title: 'Easy Shop API',
-        text: 'Unlock the potential of a robust and secure backend e-commerce API, driven by Node.js, Express, and MongoDB. Seamlessly manage user accounts, orders, and products with ease, while providing a complete e-commerce solution.',
+        text: 'Unlock the potential of a robust and secure backend e-commerce API. Node.js, ExpressJS, and MongoDB drive it and seamlessly manage user accounts, orders, and products while providing a complete e-commerce solution.',
     },
 ];
