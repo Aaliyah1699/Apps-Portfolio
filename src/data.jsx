@@ -2,7 +2,13 @@
 import { nanoid } from 'nanoid';
 import { FaReact, FaPython, FaNode } from 'react-icons/fa';
 import { SiMongodb, SiExpress } from 'react-icons/si';
-import { TbBrandJavascript } from 'react-icons/tb';
+import { DiSqllite } from 'react-icons/di';
+import { PiFileSql } from 'react-icons/pi';
+import {
+    TbBrandJavascript,
+    TbBrandCSharp,
+    TbBrandTypescript,
+} from 'react-icons/tb';
 
 export const links = [
     { id: nanoid(), href: '#home', text: 'home' },
@@ -32,6 +38,30 @@ export const skills = [
     },
     {
         id: nanoid(),
+        title: 'C#',
+        icon: <TbBrandCSharp className='h-16 w-16 text-rose-500' />,
+        text: 'Proficient in C#, engineering robust and scalable backend solutions with a meticulous approach to precision and efficiency.',
+    },
+    {
+        id: nanoid(),
+        title: 'Typescript',
+        icon: <TbBrandTypescript className='h-16 w-16 text-rose-500' />,
+        text: 'Utilizing clean, safe, and maintainable code, enhancing the quality of web applications.',
+    },
+    {
+        id: nanoid(),
+        title: 'SQL',
+        icon: <PiFileSql className='h-16 w-16 text-rose-500' />,
+        text: 'Manage and manipulate databases, guaranteeing peak performance and reliability for my applications.',
+    },
+    {
+        id: nanoid(),
+        title: 'SQLite',
+        icon: <DiSqllite className='h-16 w-16 text-rose-500' />,
+        text: ' Implementing lightweight and efficient database solutions, ensuring simplicity without compromising performance in my projects.',
+    },
+    {
+        id: nanoid(),
         title: 'MongoDB',
         icon: <SiMongodb className='h-16 w-16 text-rose-500' />,
         text: 'Skilled in MongoDB and adeptly utilizing Mongoose to design data storage solutions that ensure data integrity and seamless integration for any application.',
@@ -42,15 +72,33 @@ export const skills = [
         icon: <FaReact className='h-16 w-16 text-rose-500' />,
         text: "Advanced proficiency in React's component-based architecture, creating efficient and interactive front-end applications that redefine user experiences.",
     },
-    {
-        id: nanoid(),
-        title: 'Express.JS',
-        icon: <SiExpress className='h-16 w-16 text-rose-500' />,
-        text: 'Effectively utilize Express.js to sculpt the foundation of robust backend systems, ensuring efficient API development and delivering reliable server-side solutions.',
-    },
 ];
 
 export const projects = [
+    {
+        id: nanoid(),
+        img: '/synthwave.png',
+        url: 'https://synthwave-app.onrender.com/',
+        github: 'https://github.com/Aaliyah1699/SynthWaveApp',
+        title: 'SynthWave',
+        text: 'SynthWave is a robust and secure E-commerce platform built with the MERN stack, featuring comprehensive admin capabilities for order management and user administration, integrated with PayPal API for seamless transactions, and empowering users with account creation, order placement, and review functionality.',
+    },
+    {
+        id: nanoid(),
+        img: '/fairy.png',
+        url: 'https://github.com/Aaliyah1699/Fairy-ChatBot-App',
+        github: 'https://github.com/Aaliyah1699/Fairy-ChatBot-App',
+        title: 'Fairy GodBot',
+        text: 'Enter the realm of Fairy GodBot, a cutting-edge MERN full-stack application infused with TypeScript, where real-time interactions with an OpenAI AI chatbot await. Seamlessly secure, users can create accounts, engage in conversations, and even delete previous exchanges, while the AI stands ready to answer any query.',
+    },
+    {
+        id: nanoid(),
+        img: '/inkwell.png',
+        url: 'https://github.com/Aaliyah1699/Blog-UI',
+        github: 'https://github.com/Aaliyah1699/Blog-Api',
+        title: 'The Inkwell Serenades',
+        text: 'Immerse yourself in The Inkwell Serenades, a secure and dynamic full-stack blog powered by a C# backend and SQLite database. With comprehensive admin functionalities enabling blog post, category, and image upload management which is directly stored in the database, and an Angular frontend crafted with TypeScript, this platform offers a seamless and enriching blogging experience.',
+    },
     {
         id: nanoid(),
         img: '/moonlit.png',
