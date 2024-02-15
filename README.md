@@ -5,6 +5,7 @@ Embark on a journey through my [Portfolio](https://aaliyahm-portfolio.netlify.ap
 ## Explore some of my projects
 
 -   [SynthWave](https://synthwave-app.onrender.com/)🛍️  MERN Fullstack E-Commerce
+-   [RealtyRise Website](https://realtyrise.onrender.com)🏡 MERN Fullstack Real Estate App
 -   [The Inkwell Serenades UI](https://github.com/Aaliyah1699/Blog-UI)🖋️ [The Inkwell Serenades API](https://github.com/Aaliyah1699/Blog-Api)🖋️ Bog Using C#, SQLite, and Angular with Typescript   
 -   [Fairy GodBot](https://github.com/Aaliyah1699/Fairy-ChatBot-App) 🧚🏾‍♀️ MERN Fullstack AI chatbot using typescript
 -   [Moonlit Reverie](https://moonlit-reverie-111.netlify.app/) 🔮 Frontend E-Commerce App
