@@ -85,6 +85,14 @@ export const projects = [
     },
     {
         id: nanoid(),
+        img: '/realty.png',
+        url: 'https://realtyrise.onrender.com',
+        github: 'https://github.com/Aaliyah1699/Real-Estate-App',
+        title: 'RealtyRise',
+        text: 'RealtyRise: Revolutionizing Real Estate Management. With advanced authentication, seamless user access via Firebase and Google OAuth, and intuitive CRUD operations, RealtyRise simplifies property management. Featuring user-friendly functionalities like image uploads and robust search capabilities, finding and managing properties has never been easier.',
+    },
+    {
+        id: nanoid(),
         img: '/fairy.png',
         url: 'https://github.com/Aaliyah1699/Fairy-ChatBot-App',
         github: 'https://github.com/Aaliyah1699/Fairy-ChatBot-App',
