@@ -77,11 +77,11 @@ export const skills = [
 export const projects = [
     {
         id: nanoid(),
-        img: '/synthwave.png',
-        url: 'https://synthwave-app.onrender.com/',
-        github: 'https://github.com/Aaliyah1699/SynthWaveApp',
-        title: 'SynthWave',
-        text: 'SynthWave is a robust and secure E-commerce platform built with the MERN stack, featuring comprehensive admin capabilities for order management and user administration, integrated with PayPal API for seamless transactions, and empowering users with account creation, order placement, and review functionality.',
+        img: '/curious.png',
+        url: 'https://aaliyah-curiosities.onrender.com/',
+        github: 'https://github.com/Aaliyah1699/Blog2',
+        title: 'The Curiosities of Aaliyah',
+        text: 'The Curiosities of Aaliyah satisfies my inquisitive nature through a feature-rich MERN stack blog covering diverse topics that pique my interest. It includes secure user authentication, full CRUD functionality, advanced search, image uploads, commenting, and likes to foster community engagement. The responsive React frontend, MongoDB database, Express server, and Node.js backend provide a smooth user experience. ',
     },
     {
         id: nanoid(),
@@ -90,6 +90,14 @@ export const projects = [
         github: 'https://github.com/Aaliyah1699/Real-Estate-App',
         title: 'RealtyRise',
         text: 'RealtyRise: Revolutionizing Real Estate Management. With advanced authentication, seamless user access via Firebase and Google OAuth, and intuitive CRUD operations, RealtyRise simplifies property management. Featuring user-friendly functionalities like image uploads and robust search capabilities, finding and managing properties has never been easier.',
+    },
+    {
+        id: nanoid(),
+        img: '/synthwave.png',
+        url: 'https://synthwave-app.onrender.com/',
+        github: 'https://github.com/Aaliyah1699/SynthWaveApp',
+        title: 'SynthWave',
+        text: 'SynthWave is a robust and secure E-commerce platform built with the MERN stack, featuring comprehensive admin capabilities for order management and user administration, integrated with PayPal API for seamless transactions, and empowering users with account creation, order placement, and review functionality.',
     },
     {
         id: nanoid(),
