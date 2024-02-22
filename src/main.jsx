@@ -11,7 +11,7 @@ const router = createBrowserRouter([
         element: <App />,
     },
     {
-        path: '/projects',
+        path: 'https://aaliyahm-portfolio.netlify.app/projects',
         element: <ProjectsPage />,
     },
 ]);

@@ -11,10 +11,14 @@ import {
 } from 'react-icons/tb';
 
 export const links = [
-    { id: nanoid(), href: '/', text: 'Home' },
-    { id: nanoid(), href: '#skills', text: 'Skills' },
-    { id: nanoid(), href: '#about', text: 'About' },
-    { id: nanoid(), href: '/projects', text: 'Projects' },
+    { id: nanoid(), href: '/', text: 'home' },
+    { id: nanoid(), href: '#skills', text: 'skills' },
+    { id: nanoid(), href: '#about', text: 'about' },
+    {
+        id: nanoid(),
+        href: 'https://aaliyahm-portfolio.netlify.app/projects',
+        text: 'projects',
+    },
 ];
 
 export const skills = [
