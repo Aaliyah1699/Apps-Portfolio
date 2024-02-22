@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 const SectionTitle = ({ text }) => {
     return (
         <div className='border-b border-gray-200 pb-5'>

@@ -1,13 +1,11 @@
 import { links } from '../data';
 
-// Add Fonts & colors
-
 const Navbar = () => {
     return (
-        <nav className='bg-rose-100 '>
+        <nav className='bg-rose-100'>
             <div className='align-element py-4 flex flex-col sm:flex-row sm:gap-x-16 sm:items-center sm:py-8 leading-loose '>
-                <h2 className='text-5xl font-extrabold tracking-wide font-lobster '>
-                    Dev<span className='text-rose-600'>Hub</span>
+                <h2 className='text-3xl font-extrabold tracking-wide font-bruno'>
+                    Liyah's<span className='text-rose-600'>Work</span>
                 </h2>
                 <div className='flex gap-x-3 leading-loose border-b border-slate-700 '>
                     {links.map((link) => {

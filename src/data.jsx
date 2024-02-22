@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import { nanoid } from 'nanoid';
 import { FaReact, FaPython, FaNode } from 'react-icons/fa';
-import { SiMongodb, SiExpress } from 'react-icons/si';
+import { SiMongodb } from 'react-icons/si';
 import { DiSqllite } from 'react-icons/di';
 import { PiFileSql } from 'react-icons/pi';
 import {
@@ -11,18 +11,18 @@ import {
 } from 'react-icons/tb';
 
 export const links = [
-    { id: nanoid(), href: '#home', text: 'home' },
-    { id: nanoid(), href: '#skills', text: 'skills' },
-    { id: nanoid(), href: '#about', text: 'about' },
-    { id: nanoid(), href: '#projects', text: 'projects' },
+    { id: nanoid(), href: '/', text: 'Home' },
+    { id: nanoid(), href: '#skills', text: 'Skills' },
+    { id: nanoid(), href: '#about', text: 'About' },
+    { id: nanoid(), href: '/projects', text: 'Projects' },
 ];
 
 export const skills = [
     {
         id: nanoid(),
-        title: 'Node.JS',
-        icon: <FaNode className='h-16 w-16 text-rose-500' />,
-        text: 'Skillfully harness Node.js and Express to orchestrate powerful backend solutions, enabling lightning-fast API development and robust server-side logic.',
+        title: 'Python',
+        icon: <FaPython className='h-16 w-16 text-rose-500' />,
+        text: 'Fluent in Python, enabling versatile scripting and application development with a keen focus on readability and efficiency.',
     },
     {
         id: nanoid(),
@@ -32,22 +32,17 @@ export const skills = [
     },
     {
         id: nanoid(),
-        title: 'Python',
-        icon: <FaPython className='h-16 w-16 text-rose-500' />,
-        text: 'Fluent in Python, enabling versatile scripting and application development with a keen focus on readability and efficiency.',
-    },
-    {
-        id: nanoid(),
         title: 'C#',
         icon: <TbBrandCSharp className='h-16 w-16 text-rose-500' />,
         text: 'Proficient in C#, engineering robust and scalable backend solutions with a meticulous approach to precision and efficiency.',
     },
     {
         id: nanoid(),
-        title: 'Typescript',
-        icon: <TbBrandTypescript className='h-16 w-16 text-rose-500' />,
-        text: 'Utilizing clean, safe, and maintainable code, enhancing the quality of web applications.',
+        title: 'Node.JS',
+        icon: <FaNode className='h-16 w-16 text-rose-500' />,
+        text: 'Skillfully harness Node.js and Express to orchestrate powerful backend solutions, enabling lightning-fast API development and robust server-side logic.',
     },
+
     {
         id: nanoid(),
         title: 'SQL',
@@ -59,6 +54,12 @@ export const skills = [
         title: 'SQLite',
         icon: <DiSqllite className='h-16 w-16 text-rose-500' />,
         text: ' Implementing lightweight and efficient database solutions, ensuring simplicity without compromising performance in my projects.',
+    },
+    {
+        id: nanoid(),
+        title: 'Typescript',
+        icon: <TbBrandTypescript className='h-16 w-16 text-rose-500' />,
+        text: 'Utilizing clean, safe, and maintainable code, enhancing the quality of web applications.',
     },
     {
         id: nanoid(),
@@ -98,6 +99,14 @@ export const projects = [
         github: 'https://github.com/Aaliyah1699/SynthWaveApp',
         title: 'SynthWave',
         text: 'SynthWave is a robust and secure E-commerce platform built with the MERN stack, featuring comprehensive admin capabilities for order management and user administration, integrated with PayPal API for seamless transactions, and empowering users with account creation, order placement, and review functionality.',
+    },
+    {
+        id: nanoid(),
+        img: '/python-chatbot.png',
+        url: 'https://github.com/Aaliyah1699/Py-chatbot',
+        github: 'https://github.com/Aaliyah1699/Py-chatbot',
+        title: 'PyChatBot',
+        text: 'Step into the world of seamless communication with PyChatBot, a revolutionary Python application that harnesses the cutting-edge capabilities of the OpenAI API. PyChatBot delivers an immersive conversation experience, blurring the lines between human interaction and artificial intelligence, with its powerful natural language processing.',
     },
     {
         id: nanoid(),

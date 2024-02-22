@@ -1,6 +1,5 @@
-/* eslint-disable react/prop-types */
-import { FaGithubSquare } from 'react-icons/fa';
-import { TbWorldHeart } from 'react-icons/tb';
+import { FaGithub } from 'react-icons/fa';
+import { TbWorldCode } from 'react-icons/tb';
 
 const ProjectsCard = ({ url, img, github, title, text }) => {
     return (
@@ -18,10 +17,10 @@ const ProjectsCard = ({ url, img, github, title, text }) => {
 
                 <div className='mt-3 flex gap-x-4'>
                     <a href={url} target='_blank' rel='noopener noreferrer'>
-                        <TbWorldHeart className='h-8 w-8 text-rose-600 hover:text-rose-950 duration-300' />
+                        <TbWorldCode className='h-8 w-8 text-rose-600 hover:text-rose-950 duration-300 ' />
                     </a>
                     <a href={github} target='_blank' rel='noopener noreferrer'>
-                        <FaGithubSquare className='h-8 w-8 text-rose-600 duration-300 hover:text-rose-950' />
+                        <FaGithub className='h-8 w-8 text-rose-600 duration-300 hover:text-rose-950' />
                     </a>
                 </div>
             </div>
