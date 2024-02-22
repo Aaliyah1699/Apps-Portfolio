@@ -9,11 +9,12 @@ const Navbar = () => {
                 </h2>
                 <div className='flex gap-x-3 leading-loose border-b border-slate-700 '>
                     {links.map((link) => {
-                        const { id, href, text } = link;
+                        const { id, href, text, to } = link;
                         return (
                             <a
                                 key={id}
                                 href={href}
+                                to={to}
                                 className='capitalize text-lg tracking-widest hover:text-rose-600 duration-300 font-jura hover:shadow-lg'
                             >
                                 {text}

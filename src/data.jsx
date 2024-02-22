@@ -16,7 +16,7 @@ export const links = [
     { id: nanoid(), href: '#about', text: 'about' },
     {
         id: nanoid(),
-        href: 'https://aaliyahm-portfolio.netlify.app/projects',
+        href: '#projects',
         text: 'projects',
     },
 ];
