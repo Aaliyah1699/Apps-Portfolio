@@ -9,7 +9,7 @@ Embark on a journey through my [Portfolio 💗](https://aaliyahm-portfolio.netli
 -   [The Curiosities of Aaliyah](https://aaliyah-curiosities.onrender.com/) 🖥️  MERN Fullstack Blog using Javascript
 -   [RealtyRise Website](https://realtyrise.onrender.com) 🏡 MERN Fullstack Real Estate App using Javascript
 -   [The Inkwell Serenades API](https://github.com/Aaliyah1699/Blog-Api) 🖋️  Blog Api Using C# and SQLite database
--   [The Inkwell Serenades UI](https://github.com/Aaliyah1699/Blog-UI) 🖼️  Blog UI and Angular with Typescript
+-   [The Inkwell Serenades UI](https://github.com/Aaliyah1699/Blog-UI) 🖼️  Blog UI using Angular with Typescript
 -   [Fairy GodBot](https://github.com/Aaliyah1699/Fairy-ChatBot-App)  🧚🏾‍♀️ MERN Fullstack AI chatbot using Typescript
 -   [Moonlit Reverie](https://moonlit-reverie-111.netlify.app/)  🔮  Frontend E-Commerce App using React
 -   [Visual Voyage](https://visual-voyage.netlify.app/)  🏞️  Image Search App Frontend using React and Unsplash Api
