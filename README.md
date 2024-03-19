@@ -8,11 +8,12 @@ Embark on a journey through my [Portfolio 💗](https://aaliyahm-portfolio.netli
 -   [CodeClinic](https://github.com/Aaliyah1699/Py-CodeClinic-AI) 🏥  Fullsstack AI chat bot made with Python and Django
 -   [The Curiosities of Aaliyah](https://aaliyah-curiosities.onrender.com/) 🖥️  MERN Fullstack Blog using Javascript
 -   [RealtyRise Website](https://realtyrise.onrender.com) 🏡 MERN Fullstack Real Estate App using Javascript
--   [The Inkwell Serenades UI](https://github.com/Aaliyah1699/Blog-UI) 🖼️  [The Inkwell Serenades API](https://github.com/Aaliyah1699/Blog-Api) 🖋️ Blog Using C#, SQLite, and Angular with Typescript   
+-   [The Inkwell Serenades API](https://github.com/Aaliyah1699/Blog-Api) 🖋️  Blog Api Using C# and SQLite database
+-   [The Inkwell Serenades UI](https://github.com/Aaliyah1699/Blog-UI) 🖼️  Blog UI and Angular with Typescript
 -   [Fairy GodBot](https://github.com/Aaliyah1699/Fairy-ChatBot-App)  🧚🏾‍♀️ MERN Fullstack AI chatbot using Typescript
--   [Moonlit Reverie](https://moonlit-reverie-111.netlify.app/)  🔮 Frontend E-Commerce App using React
--   [Visual Voyage](https://visual-voyage.netlify.app/)  🏞️ Image Search App Frontend using React and Unsplash Api
--   [EasyShop API](https://e-commerce-api-q5wi.onrender.com/)  🛒 Backend E-Commerce API using Javascript
--   [Meme Generator](https://aaliyahs-meme-generator-1.netlify.app/) 🤳🏾 Meme Generator Frontend using React
--   [JobHub API](https://jobs-api-docs-4s4o.onrender.com/api-docs/) 💼 Backend Job Management using Javascript
+-   [Moonlit Reverie](https://moonlit-reverie-111.netlify.app/)  🔮  Frontend E-Commerce App using React
+-   [Visual Voyage](https://visual-voyage.netlify.app/)  🏞️  Image Search App Frontend using React and Unsplash Api
+-   [EasyShop API](https://e-commerce-api-q5wi.onrender.com/)  🛒  Backend E-Commerce API using Javascript
+-   [Meme Generator](https://aaliyahs-meme-generator-1.netlify.app/) 🤳🏾  Meme Generator Frontend using React
+-   [JobHub API](https://jobs-api-docs-4s4o.onrender.com/api-docs/) 💼  Backend Job Management using Javascript
   
