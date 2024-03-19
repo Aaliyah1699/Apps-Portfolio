@@ -5,6 +5,7 @@ Embark on a journey through my [Portfolio](https://aaliyahm-portfolio.netlify.ap
 ## Explore some of my projects
 
 -   [SynthWave](https://synthwave-app.onrender.com/)🛍️  MERN Fullstack E-Commerce
+-   [CodeClinic](https://github.com/Aaliyah1699/Py-CodeClinic-AI)🏥  AI chat bot made with Python and Django
 -   [The Curiosities of Aaliyah](https://aaliyah-curiosities.onrender.com/)🖥️  MERN Fullstack Blog
 -   [RealtyRise Website](https://realtyrise.onrender.com)🏡 MERN Fullstack Real Estate App
 -   [The Inkwell Serenades UI](https://github.com/Aaliyah1699/Blog-UI)🖋️ [The Inkwell Serenades API](https://github.com/Aaliyah1699/Blog-Api)🖋️ Bog Using C#, SQLite, and Angular with Typescript   
