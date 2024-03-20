@@ -1,9 +1,10 @@
 /* eslint-disable no-unused-vars */
 import { nanoid } from 'nanoid';
-import { FaReact, FaPython, FaNode } from 'react-icons/fa';
+import { FaPython, FaNode } from 'react-icons/fa';
 import { SiMongodb } from 'react-icons/si';
 import { DiSqllite } from 'react-icons/di';
 import { PiFileSql } from 'react-icons/pi';
+import { GrMysql } from "react-icons/gr";
 import {
     TbBrandJavascript,
     TbBrandCSharp,
@@ -59,11 +60,11 @@ export const skills = [
         icon: <DiSqllite className='h-16 w-16 text-rose-500' />,
         text: ' Implementing lightweight and efficient database solutions, ensuring simplicity without compromising performance in my projects.',
     },
-    {
+     {
         id: nanoid(),
-        title: 'Typescript',
-        icon: <TbBrandTypescript className='h-16 w-16 text-rose-500' />,
-        text: 'Utilizing clean, safe, and maintainable code, enhancing the quality of web applications.',
+        title: 'MySQL',
+        icon: <GrMysql className='h-16 w-16 text-rose-500' />,
+        text: "Design and optimize databases to ensure efficient data management and reliability in my projects.",
     },
     {
         id: nanoid(),
@@ -73,9 +74,9 @@ export const skills = [
     },
     {
         id: nanoid(),
-        title: 'React',
-        icon: <FaReact className='h-16 w-16 text-rose-500' />,
-        text: "Advanced proficiency in React's component-based architecture, creating efficient and interactive front-end applications that redefine user experiences.",
+        title: 'Typescript',
+        icon: <TbBrandTypescript className='h-16 w-16 text-rose-500' />,
+        text: 'Utilizing clean, safe, and maintainable code, enhancing the quality of web applications.',
     },
 ];
 
