@@ -111,7 +111,7 @@ export const projects = [
         url: 'https://github.com/Aaliyah1699/Py-CodeClinic',
         github: 'https://github.com/Aaliyah1699/Py-CodeClinic',
         title: 'CodeClinic AI',
-        text: 'CodeClinic AI is a cutting-edge web application designed to revolutionize the coding experience. Powered by Python, Django, and the OpenAI API, it offers a sophisticated chatbot interface tailored specifically for code-related queries. From fixing bugs to suggesting code snippets in multiple languages, CodeClinic AI is your go-to virtual coding assistant. With features like user authentication, code history storage, and easy code copying, it simplifies and enhances the coding journey for developers of all levels. Say goodbye to coding frustrations and hello to a smoother, more efficient coding experience with CodeClinic AI.',
+        text: 'CodeClinic AI is a cutting-edge web application designed to revolutionize the coding experience. Powered by Python, Django, SQLite, and the OpenAI API, it offers a sophisticated chatbot interface tailored specifically for code-related queries. From fixing bugs to suggesting code snippets in multiple languages, CodeClinic AI is your go-to virtual coding assistant. With features like user authentication, code history storage, and easy code copying, it simplifies and enhances the coding journey for developers of all levels. Say goodbye to coding frustrations and hello to a smoother, more efficient coding experience with CodeClinic AI.',
     },
     {
         id: nanoid(),
