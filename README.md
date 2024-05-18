@@ -2,7 +2,7 @@
 
 Embark on a journey through my [Portfolio 💗](https://aaliyahm-portfolio.netlify.app/), where technology meets creativity. Discover a world of web projects that showcase my passion for crafting seamless user experiences. From responsive designs to innovative features, this portfolio is a testament to my skills as an software engineer. Join me on this digital adventure, and let's explore the possibilities together.
 
-## Explore some of my projects
+## Explore Some of my Projects ❦
 
 -   [SynthWave](https://synthwave-app.onrender.com/) 🛍️  MERN Fullstack E-Commerce App using Javascript
 -   [CodeClinic](https://github.com/Aaliyah1699/Py-CodeClinic-AI) 🏥  Fullsstack AI chat bot made with Python and Django
