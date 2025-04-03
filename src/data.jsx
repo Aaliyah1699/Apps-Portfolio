@@ -37,12 +37,6 @@ export const skills = [
     },
     {
         id: nanoid(),
-        title: 'C#',
-        icon: <TbBrandCSharp className='h-16 w-16 text-rose-500' />,
-        text: 'Proficient in C#, engineering robust and scalable backend solutions with a meticulous approach to precision and efficiency.',
-    },
-    {
-        id: nanoid(),
         title: 'Node.JS',
         icon: <FaNode className='h-16 w-16 text-rose-500' />,
         text: 'Skillfully harness Node.js and Express to orchestrate powerful backend solutions, enabling lightning-fast API development and robust server-side logic.',
@@ -56,11 +50,11 @@ export const skills = [
     },
     {
         id: nanoid(),
-        title: 'SQLite',
-        icon: <DiSqllite className='h-16 w-16 text-rose-500' />,
-        text: ' Implementing lightweight and efficient database solutions, ensuring simplicity without compromising performance in my projects.',
+        title: 'MongoDB',
+        icon: <SiMongodb className='h-16 w-16 text-rose-500' />,
+        text: 'Skilled in MongoDB and adeptly utilizing Mongoose to design data storage solutions that ensure data integrity and seamless integration for any application.',
     },
-     {
+    {
         id: nanoid(),
         title: 'MySQL',
         icon: <GrMysql className='h-16 w-16 text-rose-500' />,
@@ -68,15 +62,21 @@ export const skills = [
     },
     {
         id: nanoid(),
-        title: 'MongoDB',
-        icon: <SiMongodb className='h-16 w-16 text-rose-500' />,
-        text: 'Skilled in MongoDB and adeptly utilizing Mongoose to design data storage solutions that ensure data integrity and seamless integration for any application.',
+        title: 'SQLite',
+        icon: <DiSqllite className='h-16 w-16 text-rose-500' />,
+        text: ' Implementing lightweight and efficient database solutions, ensuring simplicity without compromising performance in my projects.',
     },
     {
         id: nanoid(),
         title: 'Typescript',
         icon: <TbBrandTypescript className='h-16 w-16 text-rose-500' />,
         text: 'Utilizing clean, safe, and maintainable code, enhancing the quality of web applications.',
+    },
+    {
+        id: nanoid(),
+        title: 'C#',
+        icon: <TbBrandCSharp className='h-16 w-16 text-rose-500' />,
+        text: 'Proficient in C#, engineering robust and scalable backend solutions with a meticulous approach to precision and efficiency.',
     },
 ];
 
