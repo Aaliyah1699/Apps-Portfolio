@@ -20,6 +20,11 @@ export const links = [
         href: '#projects',
         text: 'projects',
     },
+    {
+        id: nanoid(),
+        href: 'https://aaliyah-da-portfolio.netlify.app/',
+        text: 'DA Portfolio',
+    },
 ];
 
 export const skills = [
